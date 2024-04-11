@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- 
+        wrapper 
+     -->
+
+    <div class="wrapper">
+      <!-- 
+            header
+         -->
+
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="#!" class="header__logo">
+              <img src="./images/logo.png" alt="" />
+            </a>
+
+            <ul class="header__list list-reset">
+              <li class="header__list-item">
+                <a href="#!" href-="" class="header__list-link">Квесты</a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" href-="" class="header__list-link"
+                  >Забронировать</a
+                >
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" href-="" class="header__list-link">Контакты</a>
+              </li>
+
+              <li class="header__list-item">
+                <a href="#testimonials" href-="" class="header__list-link"
+                  >Отзывы</a
+                >
+              </li>
+
+              <li class="header__list-item">
+                <a href="#!" href-="" class="header__list-link">Поддержка</a>
+              </li>
+
+              <button class="btn-reset btn-close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </ul>
+
+            <ul class="header__lang list-reset">
+              <li class="header__lang-item">
+                <a href="./index - md.html" class="header__lang-link">
+                  <img src="./images/ru.svg" width="12" height="12" alt="ru" />
+                </a>
+              </li>
+
+              <li class="header__lang-item hidden">
+                <a href="/index - ru.html" class="header__lang-link">
+                  <img src="./images/md.svg" width="12" height="12" alt="md" />
+                </a>
+              </li>
+            </ul>
+
+            <button class="btn-reset btn-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- 
+            main
+          -->
+
+      <main class="main">
+        <!-- 
+                section hero
+             -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero-content">
+                <img src="./images/logo.png" alt="" />
+
+                <h1 class="hero-content-title">
+                  <span>Новый формат квест игр</span>, где ваш внутренний Шерлок
+                  Холмс получит не только <span>эмоциональный коктейль</span>,
+                  но еще и <span>денежный приз</span>!
+                </h1>
+
+                <video src="./quest.mp4" class="hero-video"></video>
+              </div>
+
+              <div class="hero-card">
+                <div class="hero-card-content"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-bg"></div>
+        </section>
+
+        <section class="info">
+          <div class="container">
+            <div class="info__inner">
+              <h1 class="info__title title">
+                Кому подойдет проект <span>CityQuest</span>?
+              </h1>
+
+              <div class="info-content">
+                <div class="start">
+                  <div class="info-content__block">
+                    <h2 class="info-content__block-title">
+                      <span>1.</span> Всем!
+                    </h2>
+                  </div>
+
+                  <div class="info-content__block">
+                    <h2 class="info-content__block-title">
+                      <span>2.</span> Всем, кому нужны деньги.
+                    </h2>
+                  </div>
+
+                  <div class="info-content__block">
+                    <h2 class="info-content__block-title">
+                      <span>3.</span> Да-да, тебе не показалось - всем.
+                    </h2>
+                  </div>
+
+                  <div class="info-content__block">
+                    <h2 class="info-content__block-title">
+                      <span>4.</span> И даже тебе!
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="end">
+                  <img src="./images/logo.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="work">
+          <div class="container">
+            <div class="work__inner">
+              <h1 class="work__title title">Как это работает?</h1>
+
+              <div class="work-content">
+                <div class="work-content__block">
+                  <div class="work-content__block-icon">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </div>
+
+                  <ul class="work-content__block__list list-reset">
+                    <li class="work-content__block__list-item list-rese">
+                      - Участникам должно быть от 18 лет
+                    </li>
+                    <li class="work-content__block__list-item list-rese">
+                      - Ты можешь прийти командой, или индивидуальным игроком
+                    </li>
+                    <li class="work-content__block__list-item list-rese">
+                      - Иметь при себе хорошее настроение и улыбку
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="work-content__block">
+                  <div class="work-content__block-icon">
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+
+                  <ul class="work-content__block__list list-reset">
+                    <li class="work-content__block__list-item list-rese">
+                      - бронируй место и время
+                    </li>
+                    <li class="work-content__block__list-item list-rese">
+                      - собирай друзей
+                    </li>
+                    <li class="work-content__block__list-item list-rese">
+                      - приходи в назначенную точку
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="work-content__block">
+                  <div class="work-content__block-icon">
+                    <i class="fa-solid fa-brain"></i>
+                  </div>
+
+                  <ul class="work-content__block__list list-reset">
+                    <li class="work-content__block__list-item list-rese">
+                      - используй инструменты полученные вначале игры
+                    </li>
+                    <li class="work-content__block__list-item list-rese">
+                      - прояви логику и находчивость, чтобы найти подсказки и
+                      узнать пароль
+                    </li>
+                    <li class="work-content__block__list-item list-rese">
+                      - получи свой приз и тонну положительных эмоций
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="quest">
+          <div class="container">
+            <div class="quest__inner">
+              <h2 class="quest__title title">Наши квесты</h2>
+
+              <div class="quest-content">
+                <div class="quest-content__block soon">
+                  <div class="start">
+                    <h2 class="quest-content__block-title">Park Quest</h2>
+
+                    <p class="quest-content__block-subtitle">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iusto repellendus modi hic distinctio perspiciatis vel
+                      ipsam perferendis voluptates non molestiae at, odit quo
+                      architecto quidem porro fuga dolores assumenda cupiditate?
+                    </p>
+
+                    <ul class="quest-content__block__list list-reset">
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-clock"></i>
+                        </div>
+
+                        <p>Длительность 2-2,5 часа</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-moon"></i>
+                        </div>
+
+                        <p>Начало игры после захода солнца</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <p>5-8 игроков в команде</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-handshake-simple"></i>
+                        </div>
+
+                        <p>Возможность выбрать парк</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-gift"></i>
+                        </div>
+
+                        <p>Денежный приз от… лей</p>
+                      </li>
+
+                      <li
+                        class="quest-content__block__list-item quest-content__block__list-bonus"
+                      >
+                        <p>
+                          Возможна индивидуальная бронь на 1 игрока
+                          (организаторы добавят вас к сборной команде)
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="end">
+                    <span class="quest-content__block-price">2000руб</span>
+
+                    <button class="btn-reset quest-content__block-btn">
+                      Забронировать
+                    </button>
+
+                    <br />
+
+                    <button class="btn-reset quest-content__block-soon">
+                      Coming soon!
+                    </button>
+                  </div>
+                </div>
+
+                <div class="quest-content__block soon">
+                  <div class="start">
+                    <h2 class="quest-content__block-title">Country Quest</h2>
+
+                    <p class="quest-content__block-subtitle">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iusto repellendus modi hic distinctio perspiciatis vel
+                      ipsam perferendis voluptates non molestiae at, odit quo
+                      architecto quidem porro fuga dolores assumenda cupiditate?
+                    </p>
+
+                    <ul class="quest-content__block__list list-reset">
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-clock"></i>
+                        </div>
+
+                        <p>Длительность 5-6 часов</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-moon"></i>
+                        </div>
+
+                        <p>Начало игры после захода солнца</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <p>До 5 игроков в команде</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-handshake-simple"></i>
+                        </div>
+
+                        <p>Несколько маршрутов по всей стране</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-gift"></i>
+                        </div>
+
+                        <p>Денежный приз 4000 евро</p>
+                      </li>
+
+                      <li
+                        class="quest-content__block__list-item quest-content__block__list-bonus"
+                      >
+                        <p>Денежный приз 4000 евро</p>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="end">
+                    <span class="quest-content__block-price">2000руб</span>
+
+                    <button class="btn-reset quest-content__block-btn">
+                      Забронировать
+                    </button>
+
+                    <br />
+
+                    <button class="btn-reset quest-content__block-soon">
+                      Coming soon!
+                    </button>
+                  </div>
+                </div>
+
+                <div class="quest-content__block soon">
+                  <div class="start">
+                    <h2 class="quest-content__block-title">City Quest</h2>
+
+                    <p class="quest-content__block-subtitle">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iusto repellendus modi hic distinctio perspiciatis vel
+                      ipsam perferendis voluptates non molestiae at, odit quo
+                      architecto quidem porro fuga dolores assumenda cupiditate?
+                    </p>
+
+                    <ul class="quest-content__block__list list-reset">
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-clock"></i>
+                        </div>
+
+                        <p>Длительность до 3х часов</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-moon"></i>
+                        </div>
+
+                        <p>Начало игры после захода солнца</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <p>5-12 игроков в команде</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-handshake-simple"></i>
+                        </div>
+
+                        <p>Несколько городских маршрутов</p>
+                      </li>
+
+                      <li class="quest-content__block__list-item">
+                        <div class="quest-content__block__list-icon">
+                          <i class="fa-solid fa-gift"></i>
+                        </div>
+
+                        <p>Денежный приз от… лей</p>
+                      </li>
+
+                      <li
+                        class="quest-content__block__list-item quest-content__block__list-bonus"
+                      >
+                        <p>
+                          Возможна индивидуальная бронь на 1 игрока
+                          (организаторы добавят вас к сборной команде)
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="end">
+                    <span class="quest-content__block-price">2000руб</span>
+
+                    <button class="btn-reset quest-content__block-btn">
+                      Забронировать
+                    </button>
+
+                    <br />
+
+                    <button class="btn-reset quest-content__block-soon">
+                      Coming soon!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+          <div class="container">
+            <div class="testimonials__inner">
+              <h2 class="title">Подтверждённые отзывы</h2>
+
+              <div class="testimonials-content">
+                <div class="testimonials-content__block">
+                  <div class="start">
+                    <img src="./images/user.png" alt="" />
+
+                    <div class="testimonials-content__info">
+                      <span class="name">Евгений </span>
+                      <span class="surname">Астапович</span>
+                    </div>
+                  </div>
+
+                  <div class="end">
+                    <p>
+                      Этот квест превзошел все мои ожидания! Увлекательные
+                      загадки, интересные головоломки и атмосфера, в которой
+                      просто не хочется уходить. Очень рекомендую!
+                    </p>
+
+                    <ul class="star-list list-reset">
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="testimonials-content__block">
+                  <div class="start">
+                    <img src="./images/user.png" alt="" />
+
+                    <div class="testimonials-content__info">
+                      <span class="name">Евгений </span>
+                      <span class="surname">Астапович</span>
+                    </div>
+                  </div>
+
+                  <div class="end">
+                    <p>
+                      Этот квест превзошел все мои ожидания! Увлекательные
+                      загадки, интересные головоломки и атмосфера, в которой
+                      просто не хочется уходить. Очень рекомендую!
+                    </p>
+
+                    <ul class="star-list list-reset">
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="testimonials-content__block">
+                  <div class="start">
+                    <img src="./images/user.png" alt="" />
+
+                    <div class="testimonials-content__info">
+                      <span class="name">Евгений </span>
+                      <span class="surname">Астапович</span>
+                    </div>
+                  </div>
+
+                  <div class="end">
+                    <p>
+                      Этот квест превзошел все мои ожидания! Увлекательные
+                      загадки, интересные головоломки и атмосфера, в которой
+                      просто не хочется уходить. Очень рекомендую!
+                    </p>
+
+                    <ul class="star-list list-reset">
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="testimonials-content__block">
+                  <div class="start">
+                    <img src="./images/user.png" alt="" />
+
+                    <div class="testimonials-content__info">
+                      <span class="name">Евгений </span>
+                      <span class="surname">Астапович</span>
+                    </div>
+                  </div>
+
+                  <div class="end">
+                    <p>
+                      Этот квест превзошел все мои ожидания! Увлекательные
+                      загадки, интересные головоломки и атмосфера, в которой
+                      просто не хочется уходить. Очень рекомендую!
+                    </p>
+
+                    <ul class="star-list list-reset">
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="testimonials-content__block">
+                  <div class="start">
+                    <img src="./images/user.png" alt="" />
+
+                    <div class="testimonials-content__info">
+                      <span class="name">Евгений </span>
+                      <span class="surname">Астапович</span>
+                    </div>
+                  </div>
+
+                  <div class="end">
+                    <p>
+                      Этот квест превзошел все мои ожидания! Увлекательные
+                      загадки, интересные головоломки и атмосфера, в которой
+                      просто не хочется уходить. Очень рекомендую!
+                    </p>
+
+                    <ul class="star-list list-reset">
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="testimonials-content__block">
+                  <div class="start">
+                    <img src="./images/user.png" alt="" />
+
+                    <div class="testimonials-content__info">
+                      <span class="name">Евгений </span>
+                      <span class="surname">Астапович</span>
+                    </div>
+                  </div>
+
+                  <div class="end">
+                    <p>
+                      Этот квест превзошел все мои ожидания! Увлекательные
+                      загадки, интересные головоломки и атмосфера, в которой
+                      просто не хочется уходить. Очень рекомендую!
+                    </p>
+
+                    <ul class="star-list list-reset">
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+
+                      <li>
+                        <i class="fa-solid fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <button class="btn-reset testimonials-content-btn">
+                Показать ещё
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="geo">
+          <div class="container">
+            <div class="geo__inner">
+              <h2 class="geo__title title">Мы на картах</h2>
+
+              <div class="geo-content">
+                <iframe
+                class="my-card"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1393866.6316284032!2d27.07111112426744!3d46.97356073066314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c3628b769a1%3A0x258119acdf53accb!2z0JzQvtC70LTQvtCy0LA!5e0!3m2!1sru!2spl!4v1712678045438!5m2!1sru!2spl"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+
+                <div class="geo-content-info">
+                  <h2 class="geo-content-info-title">CityQuest</h2>
+
+                  <p class="geo-content-info-subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem adipisci repudiandae sed voluptatibus error
+                    consequuntur laborum officia deserunt accusantium, neque
+                    corporis non odio at facilis repellendus cum molestiae id
+                    impedit.
+                  </p>
+
+                  <p class="geo-content-info-subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem adipisci repudiandae sed voluptatibus error
+                  </p>
+
+                  <p class="geo-content-info-subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem adipisci repudiandae sed voluptatibus error
+                    consequuntur laborum officia deserunt accusantium, neque
+                    corporis non odio at facilis repellendus cum molestiae id
+                    impedit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- 
+            footer
+           -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer-start">
+              <h2 class="footer-start-title">Представитель в Москве</h2>
+
+              <div class="footer-address">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>
+                  Юридический Адрес: 115280, г. Москва, ул. Ленинская Слобода,
+                  26 строение 2, 3-й этаж, помещение 6
+                </p>
+              </div>
+
+              <div class="footer-tel">
+                <i class="fa-solid fa-phone"></i>
+                <p>+7 (499) 322-15-24</p>
+              </div>
+
+              <div class="footer-mail">
+                <i class="fa-solid fa-envelope-open"></i>
+                <p>msk@mir-kvestov.ru</p>
+              </div>
+            </div>
+
+            <div class="footer-center">
+              <h2 class="footer-center-title">Меню</h2>
+
+              <ul class="footer-list list-reset">
+                <li class="footer-list-item">
+                  <a href="#!" class="footer-list-link">Квесты</a>
+                </li>
+
+                <li class="footer-list-item">
+                  <a href="#!" class="footer-list-link">Забронировать</a>
+                </li>
+
+                <li class="footer-list-item">
+                  <a href="#!" class="footer-list-link">Контакты</a>
+                </li>
+
+                <li class="footer-list-item">
+                  <a href="#!" class="footer-list-link">Отзывы</a>
+                </li>
+
+                <li class="footer-list-item">
+                  <a href="#!" class="footer-list-link">Поддержка</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-end">
+              <h2 class="footer-end-title">Мы в соц сетях</h2>
+
+              <ul class="footer-list-soc list-reset">
+                <li class="footer-list-soc-icon">
+                  <a href="#!" class="footer-list-soc-link">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li class="footer-list-soc-icon">
+                  <a href="#!" class="footer-list-soc-link">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+
+                <li class="footer-list-soc-icon">
+                  <a href="#!" class="footer-list-soc-link">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="footer-list-pay list-reset">
+                <li class="footer-list-pay-icon">
+                  <img src="./images/pay-1.png" alt="" />
+                </li>
+
+                <li class="footer-list-pay-icon">
+                  <img src="./images/pay-2.png" alt="" />
+                </li>
+
+                <li class="footer-list-pay-icon">
+                  <img src="./images/pay-3.png" alt="" />
+                </li>
+
+                <li class="footer-list-pay-icon">
+                  <img src="./images/pay-4.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <img src="./images/bg-1.png" class="dec dec-1" alt="" />
+    <img src="./images/dec-5.png" class="dec coin-5" alt="" />
+    <img src="./images/dec-6.png" class="dec coin-6" alt="" />
+    <img src="./images/dec-5.png" class="dec coin-8" alt="" />
+
+    <!-- 
+        script
+      -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
